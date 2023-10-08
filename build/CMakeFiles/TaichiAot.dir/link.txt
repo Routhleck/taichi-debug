@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -g CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o -o TaichiAot  -Wl,-rpath,/home/routhleck/taichi/c_api/lib /home/routhleck/taichi/c_api/lib/libtaichi_c_api.so 
