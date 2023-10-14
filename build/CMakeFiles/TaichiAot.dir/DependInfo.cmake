@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/routhleck/source/jax-taichi/tests/taichi/taichi_build_test.cc" "CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o" "gcc" "CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o.d"
-  "/home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.cc" "CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o" "gcc" "CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o.d"
+  "/home/routhleck/source/taichi-debug/taichi_build_test.cc" "CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o" "gcc" "CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o.d"
+  "/home/routhleck/source/taichi-debug/taichi_kernel.cc" "CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o" "gcc" "CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

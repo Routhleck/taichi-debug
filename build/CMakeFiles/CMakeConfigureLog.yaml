@@ -4,20 +4,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
       - "CMakeLists.txt:4 (project)"
     message: |
-      The system is: Linux - 6.2.0-33-generic - x86_64
+      The system is: Linux - 6.2.0-34-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/gcc 
+      Compiler: /usr/bin/cc 
       Build flags: 
       Id flags:  
       
@@ -28,18 +28,18 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/3.27.4/CompilerIdC/a.out
+        /home/routhleck/source/taichi-debug/build/CMakeFiles/3.27.6/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/g++ 
+      Compiler: /usr/bin/c++ 
       Build flags: 
       Id flags:  
       
@@ -50,19 +50,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/3.27.4/CompilerIdCXX/a.out
+        /home/routhleck/source/taichi-debug/build/CMakeFiles/3.27.6/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ"
-      binary: "/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ"
+      source: "/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2"
+      binary: "/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,15 +71,15 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ'
+        Change Dir: '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc0a6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dc0a6.dir/build.make CMakeFiles/cmTC_dc0a6.dir/build
-        gmake[1]: Entering directory '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ'
-        Building C object CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o
-        /usr/bin/gcc   -v -o CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_594d9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_594d9.dir/build.make CMakeFiles/cmTC_594d9.dir/build
+        gmake[1]: Entering directory '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2'
+        Building C object CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o -c /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
@@ -87,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc0a6.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dc0a6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccwVtxKg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_594d9.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_594d9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQDMUiU.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -108,17 +108,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc0a6.dir/'
-         as -v --64 -o CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o /tmp/ccwVtxKg.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_594d9.dir/'
+         as -v --64 -o CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o /tmp/ccQDMUiU.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_dc0a6
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0a6.dir/link.txt --verbose=1
-        /usr/bin/gcc  -v CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o -o cmTC_dc0a6 
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_594d9
+        /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_594d9.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o -o cmTC_594d9 
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
@@ -128,18 +128,18 @@ events:
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc0a6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc0a6.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIYS2cW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc0a6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc0a6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc0a6.'
-        gmake[1]: Leaving directory '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ'
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_594d9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_594d9.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY1P0fd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_594d9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_594d9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_594d9.'
+        gmake[1]: Leaving directory '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -160,21 +160,21 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ']
+        ignore line: [Change Dir: '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc0a6/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dc0a6.dir/build.make CMakeFiles/cmTC_dc0a6.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-jXe6JZ']
-        ignore line: [Building C object CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_594d9/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_594d9.dir/build.make CMakeFiles/cmTC_594d9.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-NQJWe2']
+        ignore line: [Building C object CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o -c /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
@@ -182,8 +182,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc0a6.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dc0a6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccwVtxKg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_594d9.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_594d9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQDMUiU.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -203,17 +203,17 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc0a6.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o /tmp/ccwVtxKg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_594d9.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o /tmp/ccQDMUiU.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_dc0a6]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0a6.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/gcc  -v CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o -o cmTC_dc0a6 ]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_594d9]
+        ignore line: [/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_594d9.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o -o cmTC_594d9 ]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -223,14 +223,14 @@ events:
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc0a6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc0a6.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIYS2cW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc0a6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_594d9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_594d9.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY1P0fd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_594d9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccIYS2cW.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccY1P0fd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -248,11 +248,10 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_dc0a6] ==> ignore
+          arg [cmTC_594d9] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
-          arg [-L/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib] ==> dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
@@ -260,10 +259,8 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/home/routhleck/vulkan/1.3.261.1/x86_64/lib] ==> dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib]
-          arg [-L.] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_dc0a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_594d9.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -280,7 +277,6 @@ events:
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib] ==> [/home/routhleck/vulkan/1.3.261.1/x86_64/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
@@ -288,25 +284,24 @@ events:
         collapse library dir [/lib/../lib] ==> [/lib]
         collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib] ==> [/home/routhleck/vulkan/1.3.261.1/x86_64/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
         implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
         implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/home/routhleck/vulkan/1.3.261.1/x86_64/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
         implicit fwks: []
       
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE"
-      binary: "/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE"
+      source: "/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI"
+      binary: "/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -315,15 +310,15 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE'
+        Change Dir: '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cb9d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9cb9d.dir/build.make CMakeFiles/cmTC_9cb9d.dir/build
-        gmake[1]: Entering directory '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE'
-        Building CXX object CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/g++   -v -o CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c13ce/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c13ce.dir/build.make CMakeFiles/cmTC_c13ce.dir/build
+        gmake[1]: Entering directory '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI'
+        Building CXX object CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o -c /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/g++
+        COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
@@ -331,8 +326,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cb9d.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9cb9d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCJlqwS.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c13ce.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c13ce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3A00Bt.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -356,17 +351,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cb9d.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCJlqwS.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c13ce.dir/'
+         as -v --64 -o CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3A00Bt.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9cb9d
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb9d.dir/link.txt --verbose=1
-        /usr/bin/g++  -v CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9cb9d 
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c13ce
+        /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c13ce.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c13ce 
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/g++
+        COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
@@ -376,18 +371,18 @@ events:
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9cb9d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9cb9d.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCrsuXV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9cb9d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9cb9d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9cb9d.'
-        gmake[1]: Leaving directory '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE'
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c13ce' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c13ce.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAddMNL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c13ce /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c13ce' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c13ce.'
+        gmake[1]: Leaving directory '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -414,21 +409,21 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/usr/local/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:4 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE']
+        ignore line: [Change Dir: '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cb9d/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9cb9d.dir/build.make CMakeFiles/cmTC_9cb9d.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/CMakeScratch/TryCompile-ffCeqE']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c13ce/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c13ce.dir/build.make CMakeFiles/cmTC_c13ce.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/routhleck/source/taichi-debug/build/CMakeFiles/CMakeScratch/TryCompile-usuXcI']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o -c /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
@@ -436,8 +431,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cb9d.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9cb9d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCJlqwS.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c13ce.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c13ce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3A00Bt.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -461,17 +456,17 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cb9d.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCJlqwS.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c13ce.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3A00Bt.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9cb9d]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb9d.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/g++  -v CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9cb9d ]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c13ce]
+        ignore line: [/home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c13ce.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c13ce ]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -481,14 +476,14 @@ events:
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/routhleck/vulkan/1.3.261.1/x86_64/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9cb9d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9cb9d.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCrsuXV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9cb9d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/routhleck/vulkan/1.3.261.1/x86_64/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c13ce' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c13ce.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAddMNL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c13ce /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccCrsuXV.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccAddMNL.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -506,11 +501,10 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9cb9d] ==> ignore
+          arg [cmTC_c13ce] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
-          arg [-L/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib] ==> dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
@@ -518,10 +512,8 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/home/routhleck/vulkan/1.3.261.1/x86_64/lib] ==> dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib]
-          arg [-L.] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_9cb9d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_c13ce.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -534,7 +526,6 @@ events:
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib/../lib] ==> [/home/routhleck/vulkan/1.3.261.1/x86_64/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
@@ -542,11 +533,10 @@ events:
         collapse library dir [/lib/../lib] ==> [/lib]
         collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/home/routhleck/vulkan/1.3.261.1/x86_64/lib] ==> [/home/routhleck/vulkan/1.3.261.1/x86_64/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
         implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
         implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/home/routhleck/vulkan/1.3.261.1/x86_64/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
         implicit fwks: []
       
       

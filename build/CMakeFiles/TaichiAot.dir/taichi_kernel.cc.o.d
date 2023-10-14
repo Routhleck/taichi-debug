@@ -1,8 +1,8 @@
 CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o: \
- /home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.cc \
+ /home/routhleck/source/taichi-debug/taichi_kernel.cc \
  /usr/include/stdc-predef.h \
- /home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/cpp/taichi.hpp \
+ /home/routhleck/source/taichi-debug/taichi_kernel.h \
+ /home/routhleck/source/taichi-debug/include/taichi/cpp/taichi.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -180,138 +180,11 @@ CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o: \
  /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/taichi.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/taichi_platform.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/taichi_core.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/rhi/public_device.h \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/ext/concurrence.h \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h /usr/include/c++/11/limits \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/rhi/device_capability.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/rhi_constants.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/rhi/arch.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/archs.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/rhi/cpu/cpu_device.h \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/core.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/platform_macros.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/util/meta.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/logging.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/common.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/tweakme.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/details/null_mutex.h \
- /usr/include/c++/11/atomic /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
- /usr/include/c++/11/bits/parse_numbers.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/fmt/fmt.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/fmt/bundled/core.h \
- /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/fmt/bundled/format.h \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
- /usr/include/c++/11/tr1/special_function_util.h \
- /usr/include/c++/11/tr1/bessel_function.tcc \
- /usr/include/c++/11/tr1/beta_function.tcc \
- /usr/include/c++/11/tr1/ell_integral.tcc \
- /usr/include/c++/11/tr1/exp_integral.tcc \
- /usr/include/c++/11/tr1/hypergeometric.tcc \
- /usr/include/c++/11/tr1/legendre_function.tcc \
- /usr/include/c++/11/tr1/modified_bessel_func.tcc \
- /usr/include/c++/11/tr1/poly_hermite.tcc \
- /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/fmt/bundled/core.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/fmt/bundled/format-inl.h \
- /usr/include/c++/11/climits \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstdarg \
- /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/fmt/bundled/format.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/spdlog/common-inl.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/serialization.h \
- /usr/include/c++/11/fstream \
+ /home/routhleck/source/taichi-debug/include/taichi/taichi.h \
+ /home/routhleck/source/taichi-debug/include/taichi/taichi_platform.h \
+ /home/routhleck/source/taichi-debug/include/taichi/taichi_core.h \
+ /home/routhleck/source/taichi-debug/include/taichi/taichi_cuda.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/optional \
- /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/json.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/json_serde.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/zip.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/rhi/llvm/llvm_device.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/rhi/device.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/c_api/src/taichi_llvm_impl.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/c_api/src/taichi_core_impl.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/program/context.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/constants.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/aot/graph_data.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/type.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/util/bit.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/util/hash.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/data_type.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/type_kind.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/program/callable.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/util/lang_util.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/util/io.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/filesystem.hpp \
- /usr/include/c++/11/filesystem /usr/include/c++/11/bits/fs_fwd.h \
- /usr/include/c++/11/bits/fs_path.h /usr/include/c++/11/iomanip \
- /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/codecvt \
- /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/system/profiler.h \
- /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/system/timer.h \
- /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/exceptions.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/stmt_op_types.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/unary_op.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/binary_op.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/type_utils.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/type_factory.h \
- /usr/include/c++/11/stack /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_stack.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/aot/module_data.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/program/compile_config.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/aot/module_loader.h \
- /usr/include/c++/11/any /usr/include/c++/11/variant \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/snode.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/expr.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/util/str.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/ir/snode_types.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/inc/snodes.inc.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/program/snode_expr_utils.h \
- /home/routhleck/source/jax-taichi/tests/taichi/include/taichi/common/virtual_dir.h
+ /usr/include/c++/11/bits/fstream.tcc

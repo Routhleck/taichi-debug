@@ -157,7 +157,6 @@ DeviceAllocation CpuDevice::import_memory(void *ptr, size_t size) {
   alloc.device = this;
 
   allocations_.push_back(info);
-
   return alloc;
 }
 

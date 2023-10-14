@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /home/routhleck/miniconda3/envs/jax-taichi/lib/python3.9/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/routhleck/source/jax-taichi/tests/taichi
+CMAKE_SOURCE_DIR = /home/routhleck/source/taichi-debug
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/routhleck/source/jax-taichi/tests/taichi/build
+CMAKE_BINARY_DIR = /home/routhleck/source/taichi-debug/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TaichiAot.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/TaichiAot.dir/progress.make
 include CMakeFiles/TaichiAot.dir/flags.make
 
 CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o: CMakeFiles/TaichiAot.dir/flags.make
-CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o: /home/routhleck/source/jax-taichi/tests/taichi/taichi_build_test.cc
+CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o: /home/routhleck/source/taichi-debug/taichi_build_test.cc
 CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o: CMakeFiles/TaichiAot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o -MF CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o.d -o CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o -c /home/routhleck/source/jax-taichi/tests/taichi/taichi_build_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/routhleck/source/taichi-debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o -MF CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o.d -o CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o -c /home/routhleck/source/taichi-debug/taichi_build_test.cc
 
 CMakeFiles/TaichiAot.dir/taichi_build_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaichiAot.dir/taichi_build_test.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/routhleck/source/jax-taichi/tests/taichi/taichi_build_test.cc > CMakeFiles/TaichiAot.dir/taichi_build_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/routhleck/source/taichi-debug/taichi_build_test.cc > CMakeFiles/TaichiAot.dir/taichi_build_test.cc.i
 
 CMakeFiles/TaichiAot.dir/taichi_build_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaichiAot.dir/taichi_build_test.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/routhleck/source/jax-taichi/tests/taichi/taichi_build_test.cc -o CMakeFiles/TaichiAot.dir/taichi_build_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/routhleck/source/taichi-debug/taichi_build_test.cc -o CMakeFiles/TaichiAot.dir/taichi_build_test.cc.s
 
 CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o: CMakeFiles/TaichiAot.dir/flags.make
-CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o: /home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.cc
+CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o: /home/routhleck/source/taichi-debug/taichi_kernel.cc
 CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o: CMakeFiles/TaichiAot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o -MF CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o.d -o CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o -c /home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/routhleck/source/taichi-debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o -MF CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o.d -o CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o -c /home/routhleck/source/taichi-debug/taichi_kernel.cc
 
 CMakeFiles/TaichiAot.dir/taichi_kernel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaichiAot.dir/taichi_kernel.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.cc > CMakeFiles/TaichiAot.dir/taichi_kernel.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/routhleck/source/taichi-debug/taichi_kernel.cc > CMakeFiles/TaichiAot.dir/taichi_kernel.cc.i
 
 CMakeFiles/TaichiAot.dir/taichi_kernel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaichiAot.dir/taichi_kernel.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/routhleck/source/jax-taichi/tests/taichi/taichi_kernel.cc -o CMakeFiles/TaichiAot.dir/taichi_kernel.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/routhleck/source/taichi-debug/taichi_kernel.cc -o CMakeFiles/TaichiAot.dir/taichi_kernel.cc.s
 
 # Object files for target TaichiAot
 TaichiAot_OBJECTS = \
@@ -108,9 +108,9 @@ TaichiAot_EXTERNAL_OBJECTS =
 TaichiAot: CMakeFiles/TaichiAot.dir/taichi_build_test.cc.o
 TaichiAot: CMakeFiles/TaichiAot.dir/taichi_kernel.cc.o
 TaichiAot: CMakeFiles/TaichiAot.dir/build.make
-TaichiAot: /home/routhleck/taichi/c_api/lib/libtaichi_c_api.so
+TaichiAot: /home/routhleck/source/taichi/python/taichi/_lib/c_api/lib/libtaichi_c_api.so
 TaichiAot: CMakeFiles/TaichiAot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TaichiAot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/routhleck/source/taichi-debug/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TaichiAot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TaichiAot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/TaichiAot.dir/clean:
 .PHONY : CMakeFiles/TaichiAot.dir/clean
 
 CMakeFiles/TaichiAot.dir/depend:
-	cd /home/routhleck/source/jax-taichi/tests/taichi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/routhleck/source/jax-taichi/tests/taichi /home/routhleck/source/jax-taichi/tests/taichi /home/routhleck/source/jax-taichi/tests/taichi/build /home/routhleck/source/jax-taichi/tests/taichi/build /home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/TaichiAot.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/routhleck/source/taichi-debug/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/routhleck/source/taichi-debug /home/routhleck/source/taichi-debug /home/routhleck/source/taichi-debug/build /home/routhleck/source/taichi-debug/build /home/routhleck/source/taichi-debug/build/CMakeFiles/TaichiAot.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/TaichiAot.dir/depend
 

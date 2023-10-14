@@ -12,8 +12,6 @@
 #include <string>
 #include <utility>
 #include <taichi/taichi.h>
-#include <taichi/rhi/public_device.h>
-#include <taichi/rhi/cpu/cpu_device.h>
 
 namespace ti {
 
@@ -211,13 +209,6 @@ class MemorySlice {
   }
 };
 
-namespace {
-TiMemory devalloc2timemory(const taichi::lang::DeviceAllocation &devalloc) {
-  return (TiMemory)((size_t)devalloc.alloc_id + 1);
-}
-}
-
-
 class Memory {
  protected:
   TiRuntime runtime_{TI_NULL_HANDLE};
@@ -252,15 +243,6 @@ class Memory {
         size_(size),
         should_destroy_(should_destroy) {
   }
-  Memory(TiRuntime runtime, taichi::lang::DeviceAllocation &alloc, size_t size, bool should_destroy)
-      : runtime_(runtime),
-        size_(size),
-        should_destroy_(should_destroy) {
-      // convert DeviceAllocation to TiMemory
-      memory_ = devalloc2timemory(alloc);
-  }
-
-
   ~Memory() {
     destroy();
   }
@@ -707,6 +689,26 @@ class Texture {
   }
 };
 
+template <typename T>
+struct DataTypeToEnum {
+  static constexpr TiDataType value = TI_DATA_TYPE_UNKNOWN;
+};
+#define DEFINE_DATA_TYPE_ENUM(type, enumv)                    \
+  template <>                                                 \
+  struct DataTypeToEnum<type> {                               \
+    static constexpr TiDataType value = TI_DATA_TYPE_##enumv; \
+  };
+
+DEFINE_DATA_TYPE_ENUM(int32_t, I32);
+DEFINE_DATA_TYPE_ENUM(float, F32);
+DEFINE_DATA_TYPE_ENUM(uint16_t, U16);
+DEFINE_DATA_TYPE_ENUM(int16_t, I16);
+DEFINE_DATA_TYPE_ENUM(uint8_t, U8);
+DEFINE_DATA_TYPE_ENUM(int8_t, I8);
+DEFINE_DATA_TYPE_ENUM(uint64_t, U64);
+DEFINE_DATA_TYPE_ENUM(int64_t, I64);
+#undef DEFINE_DATA_TYPE_ENUM
+
 class ArgumentEntry {
   friend class ComputeGraph;
   TiArgument *arg_;
@@ -765,6 +767,29 @@ class ArgumentEntry {
   inline ArgumentEntry &operator=(const TiTexture &texture) {
     arg_->type = TI_ARGUMENT_TYPE_TEXTURE;
     arg_->value.texture = texture;
+    return *this;
+  }
+  template <typename T>
+  inline ArgumentEntry &operator=(const std::vector<T> &matrix) {
+    arg_->type = TI_ARGUMENT_TYPE_TENSOR;
+    std::memcpy(arg_->value.tensor.contents.data.x8, matrix.data(),
+                matrix.size() * sizeof(T));
+    arg_->value.tensor.contents.length = matrix.size();
+    arg_->value.tensor.type = DataTypeToEnum<T>::value;
+    return *this;
+  }
+  template <typename T>
+  inline ArgumentEntry &operator=(const std::vector<std::vector<T>> &matrix) {
+    arg_->type = TI_ARGUMENT_TYPE_TENSOR;
+    uint32_t size = 0, bias = 0;
+    for (const auto &row : matrix) {
+      std::memcpy((arg_->value.tensor.contents.data.x8 + bias), row.data(),
+                  row.size() * sizeof(T));
+      size += row.size();
+      bias += row.size() * sizeof(T);
+    }
+    arg_->value.tensor.contents.length = size;
+    arg_->value.tensor.type = DataTypeToEnum<T>::value;
     return *this;
   }
 };
@@ -902,11 +927,12 @@ class Kernel {
   template <typename T>
   void push_arg(const std::vector<T> &v) {
     int idx = args_.size();
-    // Temporary workaround for setting vec/matrix arguments in a flattened way.
-    args_.resize(args_.size() + v.size());
-    for (int j = 0; j < v.size(); ++j) {
-      at(idx + j) = v[j];
-    }
+    args_.resize(idx + 1);
+    args_[idx].type = TI_ARGUMENT_TYPE_TENSOR;
+    std::memcpy(args_[idx].value.tensor.contents.data.x32, v.data(),
+                v.size() * sizeof(T));
+    args_[idx].value.tensor.contents.length = v.size();
+    args_[idx].value.tensor.type = DataTypeToEnum<T>::value;
   }
 
   template <typename T>

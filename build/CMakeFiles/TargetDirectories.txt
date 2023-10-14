@@ -1,3 +1,3 @@
-/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/TaichiAot.dir
-/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/edit_cache.dir
-/home/routhleck/source/jax-taichi/tests/taichi/build/CMakeFiles/rebuild_cache.dir
+/home/routhleck/source/taichi-debug/build/CMakeFiles/TaichiAot.dir
+/home/routhleck/source/taichi-debug/build/CMakeFiles/edit_cache.dir
+/home/routhleck/source/taichi-debug/build/CMakeFiles/rebuild_cache.dir

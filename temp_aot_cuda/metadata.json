@@ -1,0 +1,188 @@
+{
+"cache": {
+  "version": {1, 7, 0},
+  "size": 14130,
+  "fields": {},
+  "kernels": {"taichi_kernel_cuda": {
+      "kernel_key": "taichi_kernel_cuda",
+      "args": [[[2], {
+            "is_array": false,
+            "is_argpack": false,
+            "total_dim": 0,
+            "format": 0,
+            "dt_": {
+              "ptr_": ptr {
+                "type_kind": 0
+                "content": {
+                  "type": 1}}},
+            "needs_grad": false,
+            "element_shape": [],
+            "ptype": 0}],[[1], {
+            "is_array": true,
+            "is_argpack": false,
+            "total_dim": 1,
+            "format": 0,
+            "dt_": {
+              "ptr_": ptr {
+                "type_kind": 3
+                "content": {
+                  "elements_": [{
+                      "type": ptr {
+                        "type_kind": 3
+                        "content": {
+                          "elements_": [{
+                              "type": ptr {
+                                "type_kind": 0
+                                "content": {
+                                  "type": 5}},
+                              "name": "dim_0",
+                              "offset": 0}],
+                          "layout_": "none"}},
+                      "name": "shape",
+                      "offset": 0},{
+                      "type": ptr {
+                        "type_kind": 1
+                        "content": {
+                          "pointee_": ptr {
+                            "type_kind": 0
+                            "content": {
+                              "type": 1}},
+                          "addr_space_": 0,
+                          "is_bit_pointer_": false}},
+                      "name": "data_ptr",
+                      "offset": 0}],
+                  "layout_": "none"}}},
+            "needs_grad": false,
+            "element_shape": [],
+            "ptype": 1}],[[0], {
+            "is_array": true,
+            "is_argpack": false,
+            "total_dim": 1,
+            "format": 0,
+            "dt_": {
+              "ptr_": ptr {
+                "type_kind": 3
+                "content": {
+                  "elements_": [{
+                      "type": ptr {
+                        "type_kind": 3
+                        "content": {
+                          "elements_": [{
+                              "type": ptr {
+                                "type_kind": 0
+                                "content": {
+                                  "type": 5}},
+                              "name": "dim_0",
+                              "offset": 0}],
+                          "layout_": "none"}},
+                      "name": "shape",
+                      "offset": 0},{
+                      "type": ptr {
+                        "type_kind": 1
+                        "content": {
+                          "pointee_": ptr {
+                            "type_kind": 0
+                            "content": {
+                              "type": 1}},
+                          "addr_space_": 0,
+                          "is_bit_pointer_": false}},
+                      "name": "data_ptr",
+                      "offset": 0}],
+                  "layout_": "none"}}},
+            "needs_grad": false,
+            "element_shape": [],
+            "ptype": 1}]],
+      "compiled_data": {
+        "tasks": [{
+            "name": "taichi_kernel_cuda_c76_0_kernel_0_serial",
+            "block_dim": 1,
+            "grid_dim": 1,
+            "dynamic_shared_array_bytes": 0},{
+            "name": "taichi_kernel_cuda_c76_0_kernel_1_range_for",
+            "block_dim": 128,
+            "grid_dim": 1152,
+            "dynamic_shared_array_bytes": 0}]},
+      "size": 14130,
+      "created_at": 1697271224,
+      "last_used_at": 1697271224,
+      "rets": [],
+      "ret_type": ptr {
+        "type_kind": 3
+        "content": {
+          "elements_": [],
+          "layout_": "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"}},
+      "ret_size": 0,
+      "args_type": ptr {
+        "type_kind": 3
+        "content": {
+          "elements_": [{
+              "type": ptr {
+                "type_kind": 3
+                "content": {
+                  "elements_": [{
+                      "type": ptr {
+                        "type_kind": 3
+                        "content": {
+                          "elements_": [{
+                              "type": ptr {
+                                "type_kind": 0
+                                "content": {
+                                  "type": 5}},
+                              "name": "dim_0",
+                              "offset": 0}],
+                          "layout_": "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"}},
+                      "name": "shape",
+                      "offset": 0},{
+                      "type": ptr {
+                        "type_kind": 1
+                        "content": {
+                          "pointee_": ptr {
+                            "type_kind": 0
+                            "content": {
+                              "type": 1}},
+                          "addr_space_": 0,
+                          "is_bit_pointer_": false}},
+                      "name": "data_ptr",
+                      "offset": 8}],
+                  "layout_": "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"}},
+              "name": "arg_0",
+              "offset": 0},{
+              "type": ptr {
+                "type_kind": 3
+                "content": {
+                  "elements_": [{
+                      "type": ptr {
+                        "type_kind": 3
+                        "content": {
+                          "elements_": [{
+                              "type": ptr {
+                                "type_kind": 0
+                                "content": {
+                                  "type": 5}},
+                              "name": "dim_0",
+                              "offset": 0}],
+                          "layout_": "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"}},
+                      "name": "shape",
+                      "offset": 0},{
+                      "type": ptr {
+                        "type_kind": 1
+                        "content": {
+                          "pointee_": ptr {
+                            "type_kind": 0
+                            "content": {
+                              "type": 1}},
+                          "addr_space_": 0,
+                          "is_bit_pointer_": false}},
+                      "name": "data_ptr",
+                      "offset": 8}],
+                  "layout_": "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"}},
+              "name": "arg_1",
+              "offset": 16},{
+              "type": ptr {
+                "type_kind": 0
+                "content": {
+                  "type": 1}},
+              "name": "arg_2",
+              "offset": 32}],
+          "layout_": "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"}},
+      "args_size": 40}}}}
